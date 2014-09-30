@@ -16,3 +16,5 @@ Install the package in your Meteor project:
 ```
 meteor add html5cat:bootstrap-material-design
 ```
+
+~~Batteries~~ Bootstrap 3 included as dependency (mizzao:bootstrap-3).
