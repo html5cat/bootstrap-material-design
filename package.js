@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "[Wrapper package] Google's Material Design based Bootstrap 3 theme.",
+  summary: "Google's Material Design based Bootstrap 3 theme.",
   version: "0.1.0",
   // git: "https://github.com/FezVrasta/bootstrap-material-design.git"
 });
