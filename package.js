@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.3');
-  api.use(['jquery'], 'client');
+  api.use(['mizzao:bootstrap-3', 'jquery'], 'client');
 
   api.addFiles([
     'bootstrap-material-design/dist/css/material.css',
