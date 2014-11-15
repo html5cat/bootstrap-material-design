@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Google's Material Design based Bootstrap 3 theme.",
-  version: "0.1.3",
+  version: "0.1.4",
   name: 'html5cat:bootstrap-material-design',
   git: 'https://github.com/html5cat/bootstrap-material-design.git'
   // git: "https://github.com/FezVrasta/bootstrap-material-design.git"
