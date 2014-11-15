@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Google's Material Design based Bootstrap 3 theme.",
-  version: "0.1.2",
+  version: "0.1.3",
   name: 'html5cat:bootstrap-material-design',
   git: 'https://github.com/html5cat/bootstrap-material-design.git'
   // git: "https://github.com/FezVrasta/bootstrap-material-design.git"
@@ -8,19 +8,18 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.3');
-  api.use(['mizzao:bootstrap-3@3.2.0', 'jquery'], 'client');
+  api.use(['jquery'], 'client');
 
   api.addFiles([
-    // 'bootstrap-material-design/css-compiled/material-wfont.css',
-    'bootstrap-material-design/css-compiled/material.css',
-    'bootstrap-material-design/css-compiled/ripples.css',
-    'bootstrap-material-design/scripts/ripples.js',
-    'bootstrap-material-design/scripts/material.js',
-    'bootstrap-material-design/icons/icons-material-design.css',
-    'bootstrap-material-design/icons/fonts/Material-Design.eot',
-    'bootstrap-material-design/icons/fonts/Material-Design.svg',
-    'bootstrap-material-design/icons/fonts/Material-Design.ttf',
-    'bootstrap-material-design/icons/fonts/Material-Design.woff'
+    'bootstrap-material-design/dist/css/material.css',
+    'bootstrap-material-design/dist/css/material-wfont.css',
+    // 'bootstrap-material-design/dist/css/ripples.min.css',
+    'bootstrap-material-design/dist/js/material.js',
+    // 'bootstrap-material-design/dist/js/ripples.js',
+    'bootstrap-material-design/dist/fonts/Material-Design-Icons.svg',
+    'bootstrap-material-design/dist/fonts/Material-Design-Icons.woff',
+    'bootstrap-material-design/dist/fonts/Material-Design-Icons.eot',
+    'bootstrap-material-design/dist/fonts/Material-Design-Icons.ttf'
     ], 'client', {bare: true});
 });
 
