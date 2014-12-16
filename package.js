@@ -13,9 +13,8 @@ Package.onUse(function(api) {
   api.addFiles([
     'bootstrap-material-design/dist/css/material.css',
     'bootstrap-material-design/dist/css/material-wfont.css',
-    // 'bootstrap-material-design/dist/css/ripples.min.css',
+    'bootstrap-material-design/dist/js/ripples.js',
     'bootstrap-material-design/dist/js/material.js',
-    // 'bootstrap-material-design/dist/js/ripples.js',
     'bootstrap-material-design/dist/fonts/Material-Design-Icons.svg',
     'bootstrap-material-design/dist/fonts/Material-Design-Icons.woff',
     'bootstrap-material-design/dist/fonts/Material-Design-Icons.eot',
